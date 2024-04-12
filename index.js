@@ -1,5 +1,5 @@
 
-
+// Detecting Button Press
 document.querySelectorAll("button").forEach((button) => {
     
   button.addEventListener("click", () => {
@@ -7,6 +7,7 @@ makeSound(button.innerHTML);
   });
 });
 
+// Detecting Keyboard Press
 document.addEventListener("keydown", (event) => {
   makeSound(event.key);
 });
